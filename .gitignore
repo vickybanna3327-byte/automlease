@@ -1,0 +1,5 @@
+automl_env/
+__pycache__/
+*.pyc
+*.pkl
+.ipynb_checkpoints/
