@@ -1,0 +1,9 @@
+README.md
+setup.py
+automlease/__init__.py
+automlease/core.py
+automlease.egg-info/PKG-INFO
+automlease.egg-info/SOURCES.txt
+automlease.egg-info/dependency_links.txt
+automlease.egg-info/requires.txt
+automlease.egg-info/top_level.txt

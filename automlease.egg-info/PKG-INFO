@@ -1,0 +1,85 @@
+Metadata-Version: 2.4
+Name: automlease
+Version: 0.2.0
+Summary: Automatic Machine Learning for beginners — train ML models in 3 lines!
+Home-page: https://github.com/vickybanna3327-byte/automlease
+Author: Vikash Singh Rajput
+Author-email: vickybanna3327@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: joblib
+Requires-Dist: rich
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# automlease ðŸ¤–
+
+**Automatic Machine Learning for absolute beginners.**
+Train a machine learning model in just 3 lines of Python code!
+
+## Installation
+```bash
+pip install automlease
+```
+
+## Quick Start
+```python
+from automlease import AutoML
+
+model = AutoML()
+model.fit('your_data.csv', target='target_column')
+model.report()
+```
+
+## What it does automatically
+
+- âœ… Loads any CSV file
+- âœ… Cleans missing values
+- âœ… Converts text columns to numbers
+- âœ… Detects if task is classification or regression
+- âœ… Trains multiple ML models and picks the best one
+- âœ… Shows a detailed evaluation report
+- âœ… Creates feature importance chart
+- âœ… Saves the best model automatically
+
+## Example â€” Heart Disease Prediction
+```python
+from automlease import AutoML
+
+model = AutoML()
+model.fit('heart_disease.csv', target='target')
+model.report()
+```
+
+## Built With
+
+- pandas
+- scikit-learn
+- matplotlib
+- seaborn
+- joblib
+- rich
+
+## Author
+
+**Vikash Singh Rajput**
+BTech Management Graduate â€” NAIT, Edmonton, Canada
+GitHub: https://github.com/vickybanna3327-byte
+
+## License
+
+MIT License
