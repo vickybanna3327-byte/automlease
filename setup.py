@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="automlease",
-    version="0.2.0",
+    version="0.3.0",
     author="Vikash Singh Rajput",
     author_email="vickybanna3327@gmail.com",
     description="Automatic Machine Learning for beginners — train ML models in 3 lines!",
@@ -23,5 +23,8 @@ setup(
         "seaborn",
         "joblib",
         "rich",
+        "xgboost",
+        "shap",
+        "streamlit",
     ],
 )
